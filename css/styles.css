@@ -1,0 +1,350 @@
+ body,
+ html {
+ 	height: 100%;
+ 	/* background-color: #E7EDEE; */
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ h1,
+ h3 {
+ 	font-family: 'Raleway', sans-serif;
+ 	font-weight: 600;
+ }
+
+ .navbar-brand img {
+ 	width: 35%;
+ 	height: 35%;
+ }
+
+ .bg {
+ 	/* The image used */
+ 	background-color: #28375C;
+ 	/* Full height */
+ 	height: 100%;
+
+ 	/* Center and scale the image nicely */
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+
+ }
+
+ @media only screen and (max-width: 767px) {
+
+ 	/* Mobile and Tab devices */
+ 	.below {
+ 		padding-top: 15px;
+ 		padding-bottom: 10px;
+ 		background-color: #DAE0F2;
+ 	}
+
+ 	.card_tppadding {
+ 		padding-top: 25px;
+ 	}
+
+
+ }
+
+ @media only screen and (min-width: 767px) {
+
+ 	/* Desktop and other large screens */
+ 	.navbar {
+ 		position: fixed;
+ 		width: 100%;
+ 		z-index: 1;
+ 		top: 0;
+ 		left: 0;
+ 	}
+
+ 	.pinkbg {
+ 		border-top-right-radius: 20px;
+ 		border-bottom-right-radius: 20px;
+ 	}
+
+ 	.navbg {
+ 		transition: 800ms ease;
+ 		background-color: transparent !important;
+ 		/* background-color: #B23A48;   edeaea   DAE0F2 */
+ 	}
+
+ 	.lis h4 {
+ 		padding-top: 15%;
+ 		padding-bottom: 15%;
+ 		background-color: #DAE0F2;
+ 		color: #1F1F1F;
+
+ 	}
+
+ 	.spacepink {
+ 		padding-top: 80px;
+ 	}
+
+ 	.nav-item {
+ 		margin-right: 15px;
+ 	}
+
+ 	.list3box {
+ 		padding-top: 30px;
+ 		padding-bottom: 80px;
+ 	}
+
+ 	.proj_cont {
+ 		padding-top: 50px;
+ 		padding-bottom: 30px;
+ 	}
+
+ }
+
+
+ /* Again General CSS */
+ .navbg {
+ 	transition: 800ms ease;
+ 	background-color: #449ECD;
+ 	/* background-color: #B23A48; */
+ }
+
+ .navbg.scrolled {
+ 	background-color: #449ECD !important;
+
+
+ }
+
+ .pinkbg {
+ 	background-color: #72c1ac;
+ 	color: #000000;
+
+ }
+
+ .pinkbg a,
+ .pinkbg a:hover {
+ 	color: #000000;
+
+ }
+
+ .end {
+ 	justify-content: flex-end;
+ }
+
+ .skill_cont {
+ 	background-color: #16456C;
+ 	color: #E7EDEE;
+ }
+
+ .skill_txt {
+ 	padding-bottom: 2px;
+ }
+
+ .skill_bx {
+ 	padding-top: 3px;
+ 	padding-bottom: 28px;
+ }
+
+ .bar {
+ 	background: #E7EDEE;
+ 	display: block;
+ 	height: 20px;
+ 	border: 1px solid rgba(248, 239, 186, 0.5);
+ 	overflow: hidden;
+ 	box-shadow: 0 0 10px #56AF98;
+
+ }
+
+ .bar span {
+ 	height: 19px;
+ 	float: left;
+ 	text-align: center;
+ 	background: #56AF98;
+ 	color: #ffffff;
+
+ }
+
+ .cinin {
+ 	width: 87%;
+ 	animation: cani 2s;
+ }
+
+ @keyframes cani {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 87%;
+ 	}
+ }
+
+ .cinc {
+ 	width: 85%;
+ 	animation: cincani 2s;
+ }
+
+ @keyframes cincani {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 85%;
+ 	}
+ }
+
+ .full90 {
+ 	width: 90%;
+ 	animation: html 2s;
+ }
+
+ @keyframes html {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 90%;
+ 	}
+ }
+
+ .full {
+ 	width: 100%;
+ 	animation: jsan 2s;
+ }
+
+ @keyframes jsan {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 100%;
+ 	}
+ }
+
+ .php {
+ 	width: 80%;
+ 	animation: phpan 2s;
+ }
+
+ @keyframes phpan {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 80%;
+ 	}
+ }
+
+ .asp {
+ 	width: 75%;
+ 	animation: aspan 2s;
+ }
+
+ @keyframes aspan {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 75%;
+ 	}
+ }
+
+ .sql {
+ 	width: 78%;
+ 	animation: sqlan 2s;
+ }
+
+ @keyframes sqlan {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 78%;
+ 	}
+ }
+
+ .ps {
+ 	width: 82%;
+ 	animation: psan 2s;
+ }
+
+ @keyframes psan {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 82%;
+ 	}
+ }
+
+ .dw {
+ 	width: 82%;
+ 	animation: dwan 2s;
+ }
+
+ @keyframes dwan {
+ 	0% {
+ 		width: 0%;
+ 	}
+
+ 	100% {
+ 		width: 82%;
+ 	}
+ }
+
+
+
+ .card {
+ 	background-color: #56AF98;
+ 	color: #E7EDEE;
+ }
+
+ .proj_cont .card:hover {
+ 	box-shadow: 10px 10px 25px grey;
+ 	transition: all .2s ease-in-out;
+ }
+
+ .btn-clr {
+
+ 	color: #16456C;
+ 	background-color: #E7EDEE;
+ 	border-color: #E7EDEE;
+ }
+
+ .btn-clr:hover {
+
+ 	color: #E7EDEE;
+ 	background-color: #16456C;
+ 	border-color: #16456C;
+ }
+
+
+ #back2Top {
+ 	width: 40px;
+ 	line-height: 40px;
+ 	overflow: hidden;
+ 	z-index: 999;
+ 	display: none;
+ 	cursor: pointer;
+ 	-moz-transform: rotate(270deg);
+ 	-webkit-transform: rotate(270deg);
+ 	-o-transform: rotate(270deg);
+ 	-ms-transform: rotate(270deg);
+ 	transform: rotate(270deg);
+ 	position: fixed;
+ 	bottom: 50px;
+ 	right: 0;
+ 	background-color: #DDD;
+ 	color: #555;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	text-decoration: none;
+ 	margin-right: 25px;
+ }
+
+ #back2Top:hover {
+ 	background-color: #DDF;
+ 	color: #000;
+ }
